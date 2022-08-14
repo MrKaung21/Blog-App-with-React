@@ -11,7 +11,7 @@ const Nav = ({ search, setSearch }) => {
                 type='text'
                 placeholder='Search Posts'
                 value={search}
-                onChange={(e) => setSearch(e.targer.value)} 
+                onChange={(e) => setSearch(e.target.value)} 
             />
         </form>
         <ul>
